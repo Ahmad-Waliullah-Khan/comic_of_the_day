@@ -241,16 +241,6 @@
 	<script src="js/app.min.js "></script>
 	<script src="//localhost:35729/livereload.js"></script>
   <script type="text/javascript">
-    function LoadMeme() {
-      var xhttp = new XMLHttpRequest();
-      xhttp.onreadystatechange = function() {
-           if (this.readyState == 4 && this.status == 200) {
-               console.log(this.responseText);
-           }
-      };
-      xhttp.open("GET", "https://xkcd.com/info.0.json", true);
-      xhttp.setRequestHeader("Content-type", "application/json");
-    }
 
     function getComic() {
       var x = document.getElementById('output');
