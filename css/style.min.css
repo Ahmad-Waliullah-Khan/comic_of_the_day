@@ -6,7 +6,7 @@ html {
   font-size: 62.5%;
   overflow-x: hidden; }
 
-body {
+body, .call_to_action {
   background-image: url(./../img/bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
@@ -28,6 +28,7 @@ body {
     background: #f12711;
     background: -webkit-linear-gradient(to right, #f5af19, #f12711);
     background: linear-gradient(to right, #f5af19, #f12711); }
+
 
 .boxed-page {
   margin: 0 auto;
